@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.shadow {
+  box-shadow: 0 .8vw 1px -.533333vw var(--shadow-key-umbra-opacity),0 .533333vw .533333vw 0 var(--shadow-key-penumbra-opacity),0 1px 1.333333vw 0 var(--shadow-key-ambient-opacity);
+}
+body {
+  background-color: #fff;
+}
